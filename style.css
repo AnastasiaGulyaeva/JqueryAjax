@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Martel:900|Open+Sans:800&display=swap");
+
+#chiste {
+  font-family: "Martel", serif;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: center;
+}
+
+.custom-button {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  color: #379b8f;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+.button {
+  border: 2px solid #379b8f;
+}
+.button:hover {
+  background: #379b8f;
+  color: #343a40;
+}
+.button:active {
+  top: 2px;
+}
